@@ -27,4 +27,7 @@ public class MainActivity extends Activity {
     }
     
     public native int nativeTest(int a, int b);
+    public boolean fakeResult() {
+        return false;
+    }
 }
